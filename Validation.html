@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <h1>REGISTRATION FORM</h1>
+    <form>
+        <label>Name:</label>
+        <input type="text" name="name"  placeholder="Enter Your Name"
+               oninput="this.value=this.value.replace(/[^A-Za-z ]/g,'')">
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email" placeholder="Enter Your Email">
+        <br><br>
+
+        <label>Password:</label>
+        <input type="password" name="password" placeholder="Enter Your Password">
+        <br><br>
+
+        <label>Re enter password:</label>
+        <input type="password" name="re_enter_password" placeholder="Enter Your repassword">
+        <br><br>
+
+        <label>Mobile:</label>
+        <input type="tel" name="Mobile" placeholder="Enter Your Mobile Number "
+               oninput="this.value=this.value.replace(/[^0-9]/g,'')">
+        <br><br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+</body>
+</html>
